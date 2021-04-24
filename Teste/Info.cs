@@ -4,7 +4,9 @@ using System.Text;
 
 namespace Teste
 {
-    class Info
+    struct Info
     {
+        public string Usuarios { get; set; }
+        public string Senha { get; set; }
     }
 }
