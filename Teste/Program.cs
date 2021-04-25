@@ -48,6 +48,15 @@ namespace Teste
                                 }
                             }
                         }
+                        if (VerificacaoDeSenha == true && VerificacaoDeUsuario == true)
+                        {
+                            Console.WriteLine("Seja bem-vindo!");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Tente novamente!");
+                        }
+                        break;
                     default:
                         throw new ArgumentOutOfRangeException();
                 }
